@@ -1,6 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-ET9X8D0Y5P"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-ET9X8D0Y5P");
+    </script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Daniel Eastwood</title>
@@ -13,14 +27,10 @@
   <body>
     <header class="container">
       <nav class="navbar">
-        <img
-          src="assets/imgs/logo.png"
-          alt="Logo"
-          class="imgSize logo"
-        />
+        <img src="assets/imgs/logo.png" alt="Logo" class="imgSize logo" />
         <ul>
           <li>
-            <a href="Home.html">Home</a>
+            <a href="index.html">Home</a>
           </li>
           <li>
             <a href="Contact.html">Contact</a>
@@ -30,6 +40,12 @@
           </li>
           <li>
             <a href="Professional-Projects.html">Professional Projects</a>
+          </li>
+          <li>
+            <a href="testimonials.html">Testimonials</a>
+          </li>
+          <li>
+            <a href="CurrentProjects.html">Current Projects</a>
           </li>
         </ul>
       </nav>
@@ -114,5 +130,7 @@
         </li>
       </ul>
     </section>
+
+    
   </body>
 </html>
